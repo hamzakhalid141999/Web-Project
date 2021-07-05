@@ -1,0 +1,6 @@
+Installations: 
+npm install express body-parser cors mongoose
+npm install -g nodemon
+
+Use to run server on localhost:4000
+npm run server / nodemon server

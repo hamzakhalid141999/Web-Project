@@ -1,0 +1,61 @@
+.updateScreen {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form__container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.form__left {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
+.form__right {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
+.labels {
+  font-weight: bolder;
+  color: rgb(62, 67, 95);
+}
+.input__div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fields {
+  width: 80%;
+  padding: 3px 6px;
+  margin-top: 10px;
+}
+.fields:focus {
+  outline: none;
+  transition: ease 200ms;
+}
+.fields:focus::placeholder {
+  color: transparent;
+  transition: ease 200ms;
+}
+.add__prodbtn {
+  padding: 5px 10px;
+  background-color: rgb(27, 30, 56);
+  color: white;
+  border: 1px solid rgb(27, 30, 56);
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 10px;
+}
+.add__prodbtn:hover {
+  background-color: rgb(58, 64, 112);
+  border: 1px solid rgb(58, 64, 112);
+  transition: ease 200ms;
+}

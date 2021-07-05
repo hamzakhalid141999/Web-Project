@@ -1,0 +1,25 @@
+.adminscreen {
+  text-align: center;
+  margin-top: 100px;
+}
+.admin__btnsCont {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.admin__btns {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(37, 45, 78);
+  color: white;
+  border-radius: 5px;
+}
+.admin__btns:hover {
+  transition: ease 200ms;
+  background-color: rgb(62, 74, 122);
+}

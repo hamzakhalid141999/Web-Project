@@ -1,0 +1,133 @@
+.signup {
+  display: flex;
+  flex-direction: row;
+  height: 635px;
+}
+.login__left {
+  padding-top: 80px;
+  width: 60%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.desc__container {
+  padding-top: 100px;
+  flex-direction: column;
+}
+.upper__text {
+  font-size: 70px;
+  color: rgb(160, 160, 160);
+  margin-bottom: 0px;
+}
+.lower__text {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(160, 160, 160);
+  margin: 0px;
+}
+.img__container {
+  width: 300px;
+}
+.login__container {
+  width: 40%;
+  background-image: linear-gradient(rgb(0, 87, 83), rgb(0, 72, 121));
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  height: 550px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: -3px 2px 21px 2px rgba(0, 0, 0, 0.75);
+}
+.login__container:hover {
+  width: 50%;
+  transition: ease 300ms;
+}
+
+.register__cont {
+  position: absolute;
+  bottom: 0px;
+  height: fit-content;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.login__field {
+  margin: 10px;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin-left: 0px;
+}
+.login__field::placeholder {
+  color: rgba(255, 255, 255, 0.719);
+}
+.login__field:focus {
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.589);
+  transition: ease 200ms;
+  outline: none;
+}
+.login__field:focus::placeholder {
+  color: transparent;
+  transition: ease 200ms;
+}
+.form__heading {
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.input__btn {
+  background-color: white;
+  border: 1px solid white;
+  color: rgb(0, 13, 27);
+  padding: 5px 10px;
+  width: 96%;
+  position: absolute;
+  bottom: 70px;
+  right: 10px;
+}
+.input__btn:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: ease 200ms;
+}
+.register__btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  width: 96%;
+  right: 10px;
+  position: absolute;
+}
+.register__btn:hover {
+  background-color: white;
+  color: rgb(0, 6, 24);
+  cursor: pointer;
+  transition: ease 200ms;
+}
+.dropdown {
+  padding: 5px 10px;
+  width: 96%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.dropdown:focus {
+  outline: none;
+}

@@ -1,0 +1,8 @@
+.paginationComponent {
+  display: flex;
+  flex-direction: row;
+}
+.pagination {
+  margin-left: auto;
+  margin-right: auto;
+}

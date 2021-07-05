@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+.app__body {
+  height: 900px;
+  width: 100%;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.473);
+  height: 500px;
+}
+.app__banner {
+  width: 100%;
+  background: url("./assets/section01-header.jpg") repeat fixed 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.banner__content {
+  padding-top: 200px;
+  width: 40%;
+  height: 200px;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: auto;
+}
+.product__name {
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+.product__desc {
+  color: white;
+  font-size: 12px;
+}
+.product__price {
+  font-size: 30px;
+  color: white;
+}
